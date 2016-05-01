@@ -17,6 +17,7 @@
 		654B8C3D1CD6780500964FE3 /* Material_NavBar_and_StatusBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B8C3C1CD6780500964FE3 /* Material_NavBar_and_StatusBarUITests.m */; };
 		654B8C4C1CD6783100964FE3 /* materialNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B8C4B1CD6783100964FE3 /* materialNavBar.m */; };
 		654B8C4F1CD6794C00964FE3 /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B8C4E1CD6794C00964FE3 /* UIColor+BFPaperColors.m */; };
+		654B8C551CD6962D00964FE3 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 654B8C541CD6962D00964FE3 /* example.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		654B8C4B1CD6783100964FE3 /* materialNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = materialNavBar.m; sourceTree = "<group>"; };
 		654B8C4D1CD6794C00964FE3 /* UIColor+BFPaperColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BFPaperColors.h"; sourceTree = "<group>"; };
 		654B8C4E1CD6794C00964FE3 /* UIColor+BFPaperColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BFPaperColors.m"; sourceTree = "<group>"; };
+		654B8C541CD6962D00964FE3 /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		654B8C171CD6780500964FE3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				654B8C541CD6962D00964FE3 /* example.png */,
 				654B8C181CD6780500964FE3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -255,6 +258,7 @@
 			files = (
 				654B8C271CD6780500964FE3 /* LaunchScreen.storyboard in Resources */,
 				654B8C241CD6780500964FE3 /* Assets.xcassets in Resources */,
+				654B8C551CD6962D00964FE3 /* example.png in Resources */,
 				654B8C221CD6780500964FE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
