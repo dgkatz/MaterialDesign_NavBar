@@ -15,6 +15,8 @@
 		654B8C271CD6780500964FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654B8C251CD6780500964FE3 /* LaunchScreen.storyboard */; };
 		654B8C321CD6780500964FE3 /* Material_NavBar_and_StatusBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B8C311CD6780500964FE3 /* Material_NavBar_and_StatusBarTests.m */; };
 		654B8C3D1CD6780500964FE3 /* Material_NavBar_and_StatusBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B8C3C1CD6780500964FE3 /* Material_NavBar_and_StatusBarUITests.m */; };
+		654B8C4C1CD6783100964FE3 /* materialNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B8C4B1CD6783100964FE3 /* materialNavBar.m */; };
+		654B8C4F1CD6794C00964FE3 /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B8C4E1CD6794C00964FE3 /* UIColor+BFPaperColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		654B8C381CD6780500964FE3 /* Material NavBar and StatusBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Material NavBar and StatusBarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		654B8C3C1CD6780500964FE3 /* Material_NavBar_and_StatusBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Material_NavBar_and_StatusBarUITests.m; sourceTree = "<group>"; };
 		654B8C3E1CD6780500964FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654B8C4A1CD6783100964FE3 /* materialNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = materialNavBar.h; sourceTree = "<group>"; };
+		654B8C4B1CD6783100964FE3 /* materialNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = materialNavBar.m; sourceTree = "<group>"; };
+		654B8C4D1CD6794C00964FE3 /* UIColor+BFPaperColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BFPaperColors.h"; sourceTree = "<group>"; };
+		654B8C4E1CD6794C00964FE3 /* UIColor+BFPaperColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BFPaperColors.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,8 @@
 		654B8C0B1CD6780500964FE3 = {
 			isa = PBXGroup;
 			children = (
+				654B8C4A1CD6783100964FE3 /* materialNavBar.h */,
+				654B8C4B1CD6783100964FE3 /* materialNavBar.m */,
 				654B8C161CD6780500964FE3 /* Material NavBar and StatusBar */,
 				654B8C301CD6780500964FE3 /* Material NavBar and StatusBarTests */,
 				654B8C3B1CD6780500964FE3 /* Material NavBar and StatusBarUITests */,
@@ -109,6 +117,8 @@
 				654B8C231CD6780500964FE3 /* Assets.xcassets */,
 				654B8C251CD6780500964FE3 /* LaunchScreen.storyboard */,
 				654B8C281CD6780500964FE3 /* Info.plist */,
+				654B8C4D1CD6794C00964FE3 /* UIColor+BFPaperColors.h */,
+				654B8C4E1CD6794C00964FE3 /* UIColor+BFPaperColors.m */,
 				654B8C171CD6780500964FE3 /* Supporting Files */,
 			);
 			path = "Material NavBar and StatusBar";
@@ -270,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				654B8C4C1CD6783100964FE3 /* materialNavBar.m in Sources */,
 				654B8C1F1CD6780500964FE3 /* ViewController.m in Sources */,
 				654B8C1C1CD6780500964FE3 /* AppDelegate.m in Sources */,
 				654B8C191CD6780500964FE3 /* main.m in Sources */,
+				654B8C4F1CD6794C00964FE3 /* UIColor+BFPaperColors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +508,7 @@
 				654B8C431CD6780500964FE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		654B8C441CD6780500964FE3 /* Build configuration list for PBXNativeTarget "Material NavBar and StatusBarTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				654B8C461CD6780500964FE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		654B8C471CD6780500964FE3 /* Build configuration list for PBXNativeTarget "Material NavBar and StatusBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				654B8C491CD6780500964FE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIColor+BFPaperColors.h"
 @interface materialNavBar : UINavigationBar
-
+- (void)setMaterialColor : (UIColor *)color;
 @end

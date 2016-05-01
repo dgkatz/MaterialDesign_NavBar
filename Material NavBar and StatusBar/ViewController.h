@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "materialNavBar.h"
+#import "UIColor+BFPaperColors.h"
 
-@interface ViewController : UIViewController
-
-
+@interface ViewController : UIViewController{
+    materialNavBar *navBar;
+}
 @end
 
