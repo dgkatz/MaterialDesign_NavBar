@@ -13,6 +13,13 @@
     self.translucent = NO;
     [self setBarTintColor:color];
     [self calculateDarkColorfromColor:color];
+    
+    self.layer.shadowOffset = CGSizeMake(0, 1);
+    self.layer.shadowRadius = 3;
+    self.layer.shadowOpacity = .6f;
+    
+    [self setShadowImage:[[UIImage alloc] init]];
+    [self setBackgroundImage:[[UIImage alloc]init] forBarMetrics:UIBarMetricsDefault];
 }
 -(void)calculateDarkColorfromColor : (UIColor *)color{
     
@@ -42,12 +49,9 @@
     }
 }
 
-/*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
+
+
 
 @end
