@@ -3,7 +3,7 @@
 ## Synopsis
 
 Material Design Navigation Bar is an Objective C project that provides a subclass of UINavigationBar that follows the material deisgn guidlines.   
-![alt tag](https://raw.githubusercontent.com/dgkatz/MaterialDesign_NavBar/master/Material NavBar and StatusBar/example2.png)
+![alt tag](https://raw.githubusercontent.com/dgkatz/MaterialDesign_NavBar/master/Material NavBar and StatusBar/example3.png)
 
 ## Code Example
 
