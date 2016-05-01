@@ -32,7 +32,7 @@ set navigation controller navigation bar to navBar variable
 
 ## Installation
 
-Simply copy and past these files into your project:
+Simply download the project file above and copy the following files into your project:
 - materialNavBar.h
 - materialNavBar.m
 - UIColor+BFPaperColors.h
